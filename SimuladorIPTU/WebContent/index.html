@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SIMULADOR DE IPTU</title>
+</head>
+<body>
+
+	<h1>SIMULADOR DE IPTU</h1>
+	
+	<form action="CalcularServlet">
+	
+	Tipo do Imóvel: Residencial<input type="radio" name="imovel" value="Residencial"> 
+					Não-Residencial<input type="radio" name="imovel" value="Não-Residencial">
+					Territorial<input type="radio" name="imovel" value="Territorial"><br>
+	
+	Base de Calculo: <input type="text" name="baseCalculo"><br>
+	
+	Valor de Desconto: <input type="text" name="valorDesc"><br>
+	
+	<input type="reset" value="Limpar">	<input type="submit" value="Calcular">
+	
+	</form>
+</body>
+</html>
